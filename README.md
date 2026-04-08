@@ -1,17 +1,17 @@
 # COMP 306 Project by Denise Godinez and Jack Mulvihill
 ## Research Question
-**Given** the OpenAlex tables “Works” and “Works Authorships” provide information about
+- **Given** the OpenAlex tables “Works” and “Works Authorships” provide information about
 citation counts, authors, and the institution that published these works between 2020 and 2025.
-**Then** we aim to identify which institutions and combinations of institutions are most frequently
+- **Then** we aim to identify which institutions and combinations of institutions are most frequently
 associated with highly cited research during this period.
-**How** we will approach this is by each highly cited paper we will look at the institutions
+- **How** we will approach this is by each highly cited paper we will look at the institutions
 represented by its authors and analyze which institutions frequently appear together in impactful
 research. Using frequent pattern mining we will identify recurring patterns and determine which
 combinations are most associated with highly cited works.
 
 ## Primary Tables
--Works
--Works Authorships
+- Works
+- Works Authorships
 
 ## Data Mining Method
 - Frequent Pattern Mining
