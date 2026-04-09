@@ -17,7 +17,7 @@ combinations are most associated with highly cited works.
 - Frequent Pattern Mining
 
 ## Jack Mulvihill Progress
-### Frequent Pattern Mining: Which Institutions Receive the Most Citations, Which Institutions Frequently Publish Together?
+### Frequent Pattern Mining: Institutions Publishing Highly Cited Works and their Co-Authorship Patterns
 - Created a new DataFrame **works_institutions** merging tables **Works** and **Works Authorships**
 - Created a plot summing up total citations across all institutions and displaying the top ten institutions with most citations
 - Map institution IDs to institution names
@@ -29,4 +29,4 @@ combinations are most associated with highly cited works.
 - Created plots plotting the supports of the most frequent solos, duos, and groups of institutions publishing together
 - Generated association rules using **Jaccard** and **Kulczynski** as my primary means of evaluation
 - Created a triple-panel plot plotting **Lift**, **Jaccard**, and **Kulczynski** scores against **Support** for generated rules
-- Filtered rules for **1-1**, **1-N**, **N-1**, and **M-N** relationships of institutions frequently publishing together
+- Filtered rules for **1-1**, **1-N**, and **N-1** relationships of institutions frequently publishing together
